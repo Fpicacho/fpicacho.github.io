@@ -2,13 +2,20 @@
     color: transparent;
     -webkit-text-stroke: 0.1vw #ebe7e4;
 }
+.flex{
+    display: flex;
+}
 .flex-s-b{
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 .flex-items-ss{
     align-items: self-start;
 }
 .m-b-2vw{
-    margin-bottom: 2vw;
+    margin-bottom: 1vw;
+}
+.m-l-10vw{
+    margin-left: 6vw;
 }
