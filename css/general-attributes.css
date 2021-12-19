@@ -1,0 +1,14 @@
+.hollowWord{
+    color: transparent;
+    -webkit-text-stroke: 0.1vw #ebe7e4;
+}
+.flex-s-b{
+    display: flex;
+    justify-content: space-between;
+}
+.flex-items-ss{
+    align-items: self-start;
+}
+.m-b-2vw{
+    margin-bottom: 2vw;
+}

@@ -1,11 +1,47 @@
 body {
-    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI',
-    Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue',
+    font-family: 'Rubik', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans',
+    'Helvetica Neue',
     sans-serif;
     font-size: calc(10px + 0.33vw);
     -webkit-font-smoothing: antialiased;
-    padding: 3vh 3vw;
+    padding: 7vh 3vw;
     color: #ebe7e4;
     background: #1a1a1a;
 }
-    
+.unitContainer{
+    display: flex;
+    align-items: self-start;
+    font-size: 5vw;
+    font-weight: bold;
+}
+.unitContainer p{
+    padding: 0;
+    margin:0 1vw 0 0;
+}
+.unitContainer .number{
+    font-size: 2vw;
+}
+.unitContainer span{
+    display: block;
+    width: 5vw;
+    height: 5vw;
+    margin-right: 1vw;
+    background: #ebe7e4;
+}
+
+.unitContainer #headerImg{
+    width: 10vw;
+    height: 5.5vw;
+    margin-right: 1vw;
+    background: url(/img/header.jpg) no-repeat center center;
+    background-size: cover;
+}
+
+.titleBox{
+    font-size: 2vw;
+}
+.titleBox p{
+    padding: 0;
+    text-align: right;
+    margin:0 1vw 0 0;
+}
