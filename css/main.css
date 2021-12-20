@@ -4,7 +4,7 @@ body {
     sans-serif;
     font-size: calc(10px + 0.33vw);
     -webkit-font-smoothing: antialiased;
-    padding: 7vh 3vw;
+    padding: 7vh 3vw 1vw 3vw;
     color: #ebe7e4;
     background: #1a1a1a;
 }
@@ -129,4 +129,8 @@ a:hover:after {
     bottom: 0;
     transition: top 200ms cubic-bezier(0, 0.8, 0.13, 1);
     background-color: rgba(251, 114, 153, 0.5);
+}
+footer{
+    text-align: center;
+    margin-top: 3vh;
 }
