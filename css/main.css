@@ -106,7 +106,7 @@ section:nth-child(2) h3{
 a{
     text-decoration: none;
     position: relative;
-    color: #00a1d6;
+    color: #f9b464;
 }
 
 a:after {
@@ -117,7 +117,7 @@ a:after {
     right: -0.1em;
     bottom: 0;
     transition: top 200ms;
-    background-color: rgba(251, 114, 153, 0.5);
+    background-color: rgba(255, 137, 131, 0.45);
 }
 
 a:hover:after {
@@ -126,7 +126,7 @@ a:hover:after {
     top: 0;
     bottom: 0;
     transition: top 200ms;
-    background-color: rgba(251, 114, 153, 0.5);
+    background-color: rgba(255, 137, 131, 0.45);
 }
 footer{
     text-align: center;
