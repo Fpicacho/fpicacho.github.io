@@ -148,3 +148,14 @@ footer{
     background-color: transparent;
     border-radius: 9999px;
 }
+
+
+/* 针对屏幕宽度小于或等于 768px 的设备（如手机） */
+@media only screen and (max-width: 768px) {
+    /* 在这里编写移动端样式 */
+    .synopsis{
+        width: 100%;
+        margin-top: 10px !important;
+        font-size: 12px !important;
+    }
+}
